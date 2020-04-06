@@ -1,0 +1,26 @@
+header{
+    border: 1px solid goldenrod;
+
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.disabled{
+    color: grey;
+}
+
+a .disabled{
+    color: purple;
+}
+
+.active{
+    color: yellow;
+}
+
+div:nth-child(3){
+    color: blue;
+}
