@@ -24,3 +24,8 @@ a .disabled{
 div:nth-child(3){
     color: blue;
 }
+
+.parent div div:first-child{
+    color: red;
+}
+
